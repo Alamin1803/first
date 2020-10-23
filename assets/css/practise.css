@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../Image/3-4.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header {
+	
+	
+}
+
+
+.header .header_left{
+	height: 100px;
+	width: 200px;
+	
+	position: absolute;
+	top: 23px;
+	left: 75px;
+	position: fixed;
+	
+
+}
+div .header_left p{
+font-size: 25px;
+color: black;
+text-align: center;
+}
+div .header_left p:hover{
+	color:  rgb(201, 170, 173);
+}
+
+.header .header_right{
+	height: 45px;
+    width: 700px;
+    position: absolute;
+    top: 23px;
+	right: 20px;
+	float: right;
+	position: fixed;
+	
+
+}
+.header .header_right ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.header .header_right ul li {
+	display: inline-block;
+	
+	
+}
+.header .header_right ul li a {
+	padding: 6px 13px;
+	color: black;
+	margin-left: 0px;
+	text-decoration: none;
+	font-style: bold;
+}
+.header .header_right ul li a{
+	margin-right: 65px;
+}
+.header .header_right ul li a:hover{
+	color:black;
+	background-color:rgb(76%, 2%, 11%);
+	transition: 0.2s;
+}
+.content{
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	left: 114px;
+	top: 192px;
+	bottom: 0;
+}
+.content .p1 {
+	font-size: 37px;
+}
+.content .p2 {
+	font-size: 27px;
+}
+.content .p3 {
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+.content .p4 {
+	background-color: tomato;
+	width: 165px;
+	text-align: center;
+	padding: -3px;
+	margin-top: 52px;
+	border: 1px solid #fff0f066;
+	padding: 13px;
+	
+}
+.content .p4:hover{
+	background-color:#D61623;
+	color: whitesmoke;
+	transition: o.3s;
+}
+.icon{
+border: 1px ;
+width: 120px;
+position: absolute;
+bottom: 0;
+top: 179px;
+right: 10px;
+margin: auto;
+height: 450px;
+
+}
+.icon i{
+	height: 75px;
+	width: 100px;
+	text-align: right;
+	
+	
+
+}
+
+
